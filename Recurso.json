@@ -1,0 +1,163 @@
+[
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Conjuro",
+    "Genero": "Terror",
+    "Creadores": "James Wan",
+    "Valoracion": 7.5
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Thriller",
+    "Genero": "Funk",
+    "Creadores": "Michael Jackson",
+    "Valoracion": 9.8
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Billie Jean",
+    "Genero": "R&B",
+    "Creadores": "Michael Jackson",
+    "Valoracion": 9.7
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Beat It",
+    "Genero": "Rock",
+    "Creadores": "Michael Jackson",
+    "Valoracion": 9.5
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "Alicia en el pais de las maravillas",
+    "Genero": "Fantasia",
+    "Creadores": "Lewis Carroll",
+    "Valoracion": 10
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Batman",
+    "Genero": "Accion",
+    "Creadores": "Warner Bros",
+    "Valoracion": 8.7
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Inception",
+    "Genero": "Ciencia Ficcion",
+    "Creadores": "Christopher Nolan",
+    "Valoracion": 9.1
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Titanic",
+    "Genero": "Romance",
+    "Creadores": "James Cameron",
+    "Valoracion": 8.5
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Gladiador",
+    "Genero": "Accion",
+    "Creadores": "Ridley Scott",
+    "Valoracion": 8.9
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Avatar",
+    "Genero": "Ciencia Ficcion",
+    "Creadores": "James Cameron",
+    "Valoracion": 8.2
+  },
+  {
+    "Elemento": "Pelicula",
+    "Nombre": "Joker",
+    "Genero": "Drama",
+    "Creadores": "Todd Phillips",
+    "Valoracion": 8.6
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Shape of You",
+    "Genero": "Pop",
+    "Creadores": "Ed Sheeran",
+    "Valoracion": 8.3
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Bohemian Rhapsody",
+    "Genero": "Rock",
+    "Creadores": "Queen",
+    "Valoracion": 9.5
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Bad Guy",
+    "Genero": "Pop",
+    "Creadores": "Billie Eilish",
+    "Valoracion": 8.1
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Smells Like Teen Spirit",
+    "Genero": "Rock",
+    "Creadores": "Nirvana",
+    "Valoracion": 9.0
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Despacito",
+    "Genero": "Reggaeton",
+    "Creadores": "Luis Fonsi",
+    "Valoracion": 7.8
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "1984",
+    "Genero": "Distopia",
+    "Creadores": "George Orwell",
+    "Valoracion": 9.4
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "El Principito",
+    "Genero": "Ficcion",
+    "Creadores": "Antoine de Saint-Exupery",
+    "Valoracion": 9.8
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "Don Quijote de la Mancha",
+    "Genero": "Clasico",
+    "Creadores": "Miguel de Cervantes",
+    "Valoracion": 9.6
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "Harry Potter y la piedra filosofal",
+    "Genero": "Fantasia",
+    "Creadores": "J.K. Rowling",
+    "Valoracion": 9.2
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "El Hobbit",
+    "Genero": "Accion",
+    "Creadores": "J.R.R. Tolkien",
+    "Valoracion": 9.1
+  },
+  {
+    "Elemento": "Musica",
+    "Nombre": "Corazon frio",
+    "Genero": "Corrido",
+    "Creadores": "DannyLux",
+    "Valoracion": 6.9
+  },
+  {
+    "Elemento": "Libro",
+    "Nombre": "It",
+    "Genero": "Terror analogico",
+    "Creadores": "stephen king",
+    "Valoracion": 10.0
+  }
+]
