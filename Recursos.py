@@ -100,7 +100,7 @@ def Buscar_Creadores(dato,campo):
 
 def Buscar_valoraciones(dato,campo):
     cargar_datos(dato)
-    Valoracion = float(input("Ingrese el nombre del genero que desea buscar: "))
+    Valoracion = float(input("Ingrese la valoracion que desea buscar: "))
     if verificacion_Float(Valoracion): 
         for i in Recursos:
             if i is not None and (i.get('Elemento') == campo and i.get('Valoracion') == Valoracion):
