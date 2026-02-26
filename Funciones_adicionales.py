@@ -235,3 +235,15 @@ def MostrarMusica(dato):
             break
         else:
             print("Opcion invalida, por favor seleccione una opcion valida.")
+
+def Buscar_valoracion_categoria(dato,campo):
+    cargar_datos(dato)
+    for i in Recursos:
+            if i is not None and (i.get('Elemento') == campo):
+                mostrar_recurso(i)
+                cantidad = len(i)
+                for i in range(0,cantidad): 
+                    Temporal = i['Valoracion']
+                    promedio = i['Valoracion'] + Temporal / cantidad
+                    print(promedio)
+                

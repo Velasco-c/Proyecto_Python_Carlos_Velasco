@@ -17,7 +17,7 @@ def mostrar_recurso_Listado(Cantidad,Recurso):
           " | Genero :" + Recurso["Genero"],
           " | Autor: " + Recurso["Creadores"],
           " | Valoracion: " + str(Recurso["Valoracion"]))  
-
+    
 def indiceFloat(Dato):
     listado = []
     for i in range(0,len(Recursos)):

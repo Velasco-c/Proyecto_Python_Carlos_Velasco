@@ -101,3 +101,18 @@ def Ver_Categorias(dato):
         MostrarMusica(dato)
     else:
          print("opcion no valida")
+
+def promedio_valoraciones(data):
+   cargar_datos(data)
+   while True:
+    opc6 = Menu_opcion_7()
+    if opc6 == 4:
+        break
+    if opc6 == 1:
+        Buscar_valoracion_categoria(data,"Libro")
+    elif opc6 == 2:
+        Buscar_valoracion_categoria(data,"Pelicula")
+    elif opc6 == 3:
+        Buscar_valoracion_categoria(data,"Musica")
+    else:
+        print("Opcion invalida, por favor seleccione una opcion valida.")

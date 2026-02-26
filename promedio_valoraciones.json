@@ -1,0 +1,14 @@
+[
+    {
+    "Elemento": "Pelicula",
+    "Promedio": 7.5
+    },
+    {
+        "Elemento": "Musica",
+        "Promedio": 7.5
+    },
+    {
+        "Elemento": "Libro",
+        "Promedio": 7.5
+    }
+]

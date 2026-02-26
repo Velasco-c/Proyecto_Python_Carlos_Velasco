@@ -17,7 +17,8 @@ def Menu_Principal():
 4. Editar un Elemento
 5. Eliminar un Elemento
 6. Ver Elementos por Categoría
-7. Salir
+7. Ver promedio por categoria
+8. Salir
 ===========================================
 Selecciona una opción (1-7):
 """
@@ -129,6 +130,22 @@ def Menuopciones_extras():
 2. Ver Autor
 3. Ver Valoracion
 4. Regresar al Menú ver elementos por categoria
+===========================================
+Selecciona una opción (1-4):
+"""
+    print(Menu)
+    return pedir_opcion("Ingrese una de las opciones: ")
+
+def Menu_opcion_7():
+    Menu = """
+================================================================
+        Ver Elementos promdeio de valoracion
+================================================================
+¿Qué promedio deseas ver?
+1. Ver promedio Libros
+2. Ver promedio Películas
+3. Ver promedio Música
+4. Regresar al Menú Principal
 ===========================================
 Selecciona una opción (1-4):
 """
