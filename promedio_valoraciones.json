@@ -1,14 +1,14 @@
 [
-    {
+  {
     "Elemento": "Pelicula",
+    "Promedio": 8.5
+  },
+  {
+    "Elemento": "Musica",
     "Promedio": 7.5
-    },
-    {
-        "Elemento": "Musica",
-        "Promedio": 7.5
-    },
-    {
-        "Elemento": "Libro",
-        "Promedio": 7.5
-    }
+  },
+  {
+    "Elemento": "Libro",
+    "Promedio": 9.59
+  }
 ]

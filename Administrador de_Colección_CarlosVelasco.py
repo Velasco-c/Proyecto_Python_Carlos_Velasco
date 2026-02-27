@@ -21,6 +21,6 @@ while True:
     elif opc == 6:
         Ver_Categorias(Name_Archivo)
     elif opc == 7:
-        promedio_valoraciones(Name_Archivo)
+        promedio_valoraciones(Name_Archivo,Name_Archivo2)
     else:
         print("opcion no valida, Vuelvelo a intentar")

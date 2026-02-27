@@ -236,14 +236,20 @@ def MostrarMusica(dato):
         else:
             print("Opcion invalida, por favor seleccione una opcion valida.")
 
-def Buscar_valoracion_categoria(dato,campo):
+def Buscar_valoracion_categoria(dato,campo,data2):
     cargar_datos(dato)
+    Temporal = 0
+    contador = 0
     for i in Recursos:
             if i is not None and (i.get('Elemento') == campo):
+                Temporal += i['Valoracion']
+                contador += 1 
+                promedio = round(Temporal / contador,2)
                 mostrar_recurso(i)
-                cantidad = len(i)
-                for i in range(0,cantidad): 
-                    Temporal = i['Valoracion']
-                    promedio = i['Valoracion'] + Temporal / cantidad
-                    print(promedio)
-                
+    print(f"El promedio total de los tipos archivo {campo} son {promedio}")
+    cargar_datos(data2)
+    for recurso in Recursos:
+        if recurso.get("Elemento") == campo:
+            recurso["Promedio"] = promedio
+    guardar_datos(data2)
+    print("El promedio se guardó correctamente")
